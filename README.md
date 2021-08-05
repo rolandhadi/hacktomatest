@@ -8,8 +8,23 @@ A Hackable Test Automation Framework for the 21st Century by Test Automation Art
 
 
 # keywords
-* make:project uft my-first-project
-* make:model User  -m
-* make:controller UserController
-* make:migration create_model_table
-* migrate
+Make new Test Automation Project
+```
+make:project uft my-first-project
+```
+Make new Model
+```
+make:model User  -m
+```
+Make new Controller
+```
+make:controller UserController
+```
+Make new Database Migration
+```
+make:migration create_model_table
+```
+Migrate
+```
+migrate
+```
